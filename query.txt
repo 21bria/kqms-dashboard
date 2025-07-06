@@ -1,0 +1,8 @@
+rm -rf .nuxt
+npm run dev
+
+Ini akan meng-clear cache dan dependensi yang error:
+
+rm -rf .nuxt node_modules
+npm install
+npm run dev
